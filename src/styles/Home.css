@@ -1,0 +1,107 @@
+/* Home.css */
+.home {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: url('/images/hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  
+  .cta-button {
+    background: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .cta-button:hover {
+    background: #e6b800;
+  }
+  
+  /* Featured Gallery */
+  .featured-gallery {
+    padding: 40px 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 30px;
+    background: #f4f4f4;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    padding: 40px 20px;
+  }
+  
+  .testimonials blockquote {
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 600px;
+    background: #eee;
+    padding: 15px;
+    border-left: 5px solid #ffcc00;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .gallery img {
+      width: 80%;
+    }
+  
+    .hero-section {
+      padding: 50px 15px;
+    }
+  
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section p {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      font-size: 0.9rem;
+    }
+  }
+  
